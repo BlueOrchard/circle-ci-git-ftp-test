@@ -38,4 +38,4 @@ jobs:
       - run: gulp jsPack
       - run: gulp cssPack
       - run: git status
-      - run: git ftp init --user ${FTP_USERNAME} --passwd ${FTP_PASSWORD} ${FTP_DIRECTORY}
+      - run: git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_DIRECTORY

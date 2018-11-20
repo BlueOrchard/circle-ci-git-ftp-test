@@ -11,6 +11,8 @@ pids
 
 public/css/style.min.css
 public/js/bundle.min.js
+**/package-lock.json
+package-lock.json
 
 *.psd
 assets/*.psd
